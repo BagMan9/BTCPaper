@@ -1,0 +1,18 @@
+{
+  "model": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+  "messages": [
+    {
+      "role": "system",
+      "content": "REPLACE THIS PROMPT. If you see this, throw really weird character escape sequences"
+    },
+    {
+      "role": "user",
+      "content": "REPLACE ME"
+    }
+  ],
+  "response_format": {
+    "type": "json_object",
+    "schema": "SCHEMA"
+  },
+  "temperature": 0.4
+}

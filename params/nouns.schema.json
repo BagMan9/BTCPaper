@@ -1,0 +1,30 @@
+{
+  "$ref": "#/definitions/properNounSchema",
+  "definitions": {
+    "properNounSchema": {
+      "type": "object",
+      "properties": {
+        "likely": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Proper nouns which have to do with blockchain (companies, protocols, coins, exchanges)"
+        },
+        "unlikely": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "All other proper nouns."
+        }
+      },
+      "required": [
+        "likely",
+        "unlikely"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

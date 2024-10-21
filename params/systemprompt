@@ -1,0 +1,1 @@
+Respond only in valid JSON. Return all proper nouns (and only proper nouns) from the received text. Sort the proper nouns into two keys, likely, and unlikely. The likely key should contain an array of all proper nouns that have to do with blockchain (companies, protocols, coins, exchanges). The unlikely key should contains all other proper nouns.
